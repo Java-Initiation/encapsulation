@@ -15,4 +15,11 @@ public class Compte {
         return numeroCompte;
     }
 
+    @Override
+    public String toString() {
+        return "Compte{" +
+                "numeroCompte=" + numeroCompte +
+                ", solde=" + solde +
+                '}';
+    }
 }
